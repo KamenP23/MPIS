@@ -98,7 +98,7 @@ div.sticky{
 		margin-top: 0pt;
 		z-index:1;
 		background-color:black;
-		background-size:10000px 150px;
+		background-size:10000rem 150px;
 		display:flex;
 		justify-content: space-around;
 }
