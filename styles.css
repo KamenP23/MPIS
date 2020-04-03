@@ -131,6 +131,7 @@ textarea:focus{
 #myDiv
 {
   background-color:black;
+background-size:100%;
   z-index:1;
 }
 
