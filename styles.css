@@ -1,0 +1,188 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+  background: url(music2.jpg) no-repeat center center fixed; 
+	background-size:cover ;
+}
+
+/*body::after {
+  content: "";
+  background: url(music2.jpg);
+  background-size:cover;
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1;   
+}*/
+
+
+a{
+	color:white;
+	text-decoration:none;
+}
+
+/*.List{
+	list-style: none;
+	display: inline-block;
+	padding-left: 80px;
+	padding-right:80px;
+	border:0px solid black;
+	background-color:black;
+	transition: background-color 0.25s;
+	transition:all 0.5s;
+	border-radius:25px;
+}
+
+.List:hover{
+	background-color:grey;
+	transform:scale(1.05);
+}*/
+
+/*.List:hover{
+	border-style:solid;
+
+}
+*/
+h2{
+	text-align: left;
+	cursor: pointer;
+	font-size:21pt;
+}
+
+ul {
+		text-align:left;
+		font-size:20pt;
+		color:white;
+}
+
+h2, p{
+	font-family: 'Jua', sans-serif;
+}
+
+h2,p{
+		font-size:20pt;
+	font-style: none;
+	color:white;
+}
+
+#googleMap {
+	align-self: middle;
+}
+
+iframe{
+	padding-right: 10px;
+	float:left;
+			padding-bottom: 50px;
+}
+
+.Registration{
+	font-size: 16pt;
+	color: rgb(217, 216, 224);
+}
+
+.Gallery {
+	clear:both;
+}
+
+div.sticky{
+		position:sticky;
+		border:0px solid black;
+		top:0;
+		margin-top: 0pt;
+		z-index:1;
+		background-color:black;
+		background-size:10000px 150px;
+		display:flex;
+		justify-content: space-around;
+}
+
+
+.List{
+	font-size:150%;
+	padding-left:5rem;
+	padding-right:5rem;
+	background-color:black;
+	transition: background-color 0.25s;
+	transition:all 0.5s;
+	border-radius:25px;
+}
+
+.List:hover{
+	background-color:grey;
+	transform:scale(1.05);
+}
+
+
+input:focus{
+	background-color:lightblue;
+}
+
+textarea:focus{
+	background-color: lightblue;
+}
+
+#myDiv
+{
+  background-color:black;
+  z-index:1;
+}
+
+#myDiv img
+{
+  margin: auto;
+  display: block;
+}
+
+h2, p, li{
+	margin-right:15px;
+	margin-left:15px;
+}
+
+h2{
+	border-bottom:2px solid gold;
+	width:120px;
+	text-align:center;
+	align-content:center;
+	font-family: 'Raleway', sans-serif;
+}
+
+p{
+	font-size:120%;
+	font-family:Verdana;
+}
+
+/*body::after {
+  content: "";
+  background: url(music.jpg);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1;   
+}
+*/
+p.phone{
+	color:grey;
+}
+
+img.imggal{
+	display:inline-block;
+	padding-left:40px;
+	width:450px;
+	height:300px;
+	margin:0px;
+	transition: all 0.5s;
+}
+
+img.imggal:hover{
+	transform:scale(1.05);
+}
